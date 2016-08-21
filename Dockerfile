@@ -8,8 +8,6 @@ ADD ./resources /resources
 
 RUN /resources/build && rm -rf resources
 
-ENTRYPOINT ["casperjs"]
-
 VOLUME /data
 
 WORKDIR /data
